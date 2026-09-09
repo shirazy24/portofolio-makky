@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - Makky Shirazy</title>
+  <meta name="description" content="Tentang Makky Shirazy, fotografer dan videografer yang berfokus pada event photography dan videography.">
+  <meta name="author" content="Makky Shirazy">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body { 
+      font-family: 'Poppins', sans-serif; 
+      background-color: #FAFAFA;
+    }
+    
+    /* Animasi masuk untuk section pertama */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fadeUp { animation: fadeUp 0.8s ease-out forwards; }
+  </style>
+</head>
+
+<body class="overflow-x-hidden text-black">
+
+<!-- NAVBAR (Tetap Fixed/Sticky di atas saat di-scroll) -->
+<nav class="fixed top-8 w-full flex justify-center gap-4 md:gap-6 z-50">
+  <a href="index.html#home" class="px-8 py-1.5 rounded-full border-[2.5px] border-black bg-[#cccccc] text-black font-medium hover:scale-105 transition text-center cursor-pointer shadow-sm">
+    Home
+  </a>
+  <a href="index.html#about" class="px-8 py-1.5 rounded-full border-[2.5px] border-black bg-[#cccccc] text-black font-medium hover:scale-105 transition text-center cursor-pointer shadow-sm">
+    About
+  </a>
+  <a href="index.html#portofolio" class="px-8 py-1.5 rounded-full border-[2.5px] border-black bg-[#4B82C3] text-black font-medium hover:scale-105 transition text-center cursor-pointer shadow-sm">
+    Portofolio
+  </a>
+  <a href="index.html#contact" class="px-8 py-1.5 rounded-full border-[2.5px] border-black bg-[#cccccc] text-black font-medium hover:scale-105 transition text-center cursor-pointer shadow-sm">
+    Contact
+  </a>
+</nav>
+
+<!-- ============================================== -->
+<!-- SECTION 1: ABOUT ME (Identitas) -->
+<!-- ============================================== -->
+<section class="min-h-screen flex flex-col items-center pt-32 px-6 pb-20 animate-fadeUp">
+  
+  <h1 class="text-6xl md:text-7xl font-bold text-[#222]">
+    About Me
+  </h1>
+
+  <p class="mt-8 text-center max-w-4xl text-lg md:text-xl font-medium leading-relaxed text-gray-900">
+    Hai, saya Makky Shirazy seorang fotografer dan videografer yang memiliki ambisi untuk terus berkembang, menciptakan karya visual yang memiliki ciri khas pribadi.
+  </p>
+
+  <div class="mt-16 w-full max-w-5xl flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16">
+    
+    <!-- Gambar Kiri -->
+    <div class="w-full md:w-1/2 flex justify-center">
+        <img src="./High School Project/Gambar/fotogua2.png" alt="Makky Shirazy" class="w-64 md:w-[150px] object-contain drop-shadow-xl" />
+    </div>
+
+    <!-- Detail Kanan -->
+    <div class="w-full md:w-1/2 flex flex-col gap-8 text-lg md:text-xl">
+      <div class="flex items-center gap-5">
+        <i class="fas fa-chevron-right text-2xl font-black"></i>
+        <p><span class="font-semibold">Phone :</span> <span class="font-light ml-2">+6287870515977</span></p>
+      </div>
+      <div class="flex items-center gap-5">
+        <i class="fas fa-chevron-right text-2xl font-black"></i>
+        <p><span class="font-semibold">City :</span> <span class="font-light ml-2">Tangerang Selatan, Banten</span></p>
+      </div>
+      <div class="flex items-center gap-5">
+        <i class="fas fa-chevron-right text-2xl font-black"></i>
+        <p><span class="font-semibold">Age :</span> <span class="font-light ml-2">19</span></p>
+      </div>
+      <div class="flex items-center gap-5">
+        <i class="fas fa-chevron-right text-2xl font-black"></i>
+        <p><span class="font-semibold">Email :</span> <span class="font-light ml-2">makkyshirazy2@gmail.com</span></p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- ============================================== -->
+<!-- SECTION 2: EDUCATION & EXPERIENCE (Timeline) -->
+<!-- ============================================== -->
+<!-- Padding top dikurangi sedikit agar transisi scroll terasa natural -->
+<section class="max-w-7xl mx-auto px-6 py-20">
+  
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-20">
+    
+    <!-- KOLOM KIRI: EDUCATION -->
+    <div class="flex flex-col">
+      <h2 class="text-5xl md:text-6xl font-bold text-center text-[#222] mb-12">
+        Education
+      </h2>
+
+      <!-- Wrapper Timeline -->
+      <div class="border-l-[1.5px] border-[#3B5249] ml-4 space-y-12 pb-8">
+        
+        <!-- SMA -->
+        <div class="relative pl-8">
+          <div class="absolute -left-[11px] top-1.5 w-[20px] h-[20px] rounded-full border-[1.5px] border-[#3B5249] bg-[#FAFAFA]"></div>
+          
+          <h3 class="text-2xl font-semibold text-[#222]">SMAS Triguna Utama</h3>
+          <p class="text-xl text-gray-800 mt-2 mb-4">2022 - 2025</p>
+          <p class="text-[15px] leading-relaxed text-gray-800 text-justify">
+            Mengikuti program studi Ilmu Pengetahuan Alam (IPA) dengan fokus pada pengembangan keterampilan analitis dan pemecahan masalah. Aktif berpartisipasi dalam kegiatan ekstrakurikuler desain grafis dan teknologi informasi, yang memperkuat minat dan keterampilan dalam bidang desain dan teknologi digital.
+          </p>
+        </div>
+
+        <!-- UIN -->
+        <div class="relative pl-8">
+          <div class="absolute -left-[11px] top-1.5 w-[20px] h-[20px] rounded-full border-[1.5px] border-[#3B5249] bg-[#FAFAFA]"></div>
+          
+          <h3 class="text-2xl font-semibold text-[#222]">UIN Syarif Hidayatullah Jakarta</h3>
+          <p class="text-xl text-gray-800 mt-2 mb-4">2025 - Sekarang</p>
+          <p class="text-[15px] leading-relaxed text-gray-800 text-justify">
+            Sedang menempuh pendidikan di program studi Sistem Informasi dengan fokus pada pengembangan teknologi digital, analisis sistem, dan pemrograman. Memanfaatkan latar belakang akademik ini untuk mendukung aktivitas kreatif di bidang fotografi dan videografi, khususnya dalam pengolahan visual, manajemen konten digital, serta pemanfaatan tools berbasis teknologi.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- KOLOM KANAN: EXPERIENCE -->
+    <div class="flex flex-col">
+      <h2 class="text-5xl md:text-6xl font-bold text-center text-[#222] mb-12">
+        Experience
+      </h2>
+
+      <!-- Wrapper Timeline -->
+      <div class="border-l-[1.5px] border-[#3B5249] ml-4 h-full">
+        
+        <!-- OSIS -->
+        <div class="relative pl-8">
+          <div class="absolute -left-[11px] top-1.5 w-[20px] h-[20px] rounded-full border-[1.5px] border-[#3B5249] bg-[#FAFAFA]"></div>
+          
+          <h3 class="text-2xl font-semibold text-[#222]">Organisasi Intra Sekolah (OSIS)</h3>
+          <p class="text-xl text-gray-800 mt-2 mb-4">2022 - 2025</p>
+          
+          <ul class="list-disc list-outside ml-5 text-[15px] leading-relaxed text-gray-800 space-y-2">
+            <li>Memimpin Divisi TIK dalam pengelolaan dokumentasi dan publikasi digital organisasi</li>
+            <li>Terlibat dalam 12+ event (end-to-end execution)</li>
+            <li>Bertanggung jawab sebagai fotografer & videografer utama</li>
+            <li>Menghasilkan konten visual untuk kebutuhan branding dan publikasi</li>
+            <li>Terbiasa bekerja dengan deadline dan tekanan event</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+</body>
+</html>

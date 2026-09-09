@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Makky Shirazy - Photographer & Videographer Portofolio</title>
+  <meta name="description" content="Portofolio Makky Shirazy, fotografer dan videografer profesional. Jelajahi koleksi event photography & videography, college & high school project.">
+  <meta name="author" content="Makky Shirazy">
+  <meta name="theme-color" content="#4B82C3">
+  <link rel="canonical" href="https://makkyshirazy.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Makky Shirazy - Photographer & Videographer">
+  <meta property="og:description" content="Portofolio fotografi dan videografi Makky Shirazy. Dokumentasi event dengan detail dan kreativitas tinggi.">
+  <meta property="og:image" content="../Gambar/fotogua.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body { 
+      font-family: 'Poppins', sans-serif; 
+      background-color: #F8F9FA; 
+    }
+    
+    .text-shadow-solid { text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4); }
+
+    html { scroll-padding-top: 100px; }
+
+    /* 🔥 ANIMASI SCROLL REVEAL TERKEREN DI DUNIA (3D + BLUR) 🔥 */
+    .reveal-cool {
+      opacity: 0;
+      filter: blur(8px);
+      transform: translateY(60px) rotateX(-20deg) scale(0.95);
+      transition: all 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .reveal-cool.active {
+      opacity: 1;
+      filter: blur(0);
+      transform: translateY(0) rotateX(0) scale(1);
+    }
+
+    /* HILANGKAN SCROLLBAR DI SLIDER PORTOFOLIO & MODAL */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    /* CAROUSEL MEDIA FADE IN ANIMATION */
+    @keyframes fadeInMedia {
+      from { opacity: 0; transform: scale(0.98); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .animate-media {
+      animation: fadeInMedia 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    /* FORM FEEDBACK ANIMATIONS */
+    @keyframes slideInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .animate-in {
+      animation: slideInDown 0.3s ease-out forwards;
+    }
+    .fade-in {
+      animation: slideInDown 0.3s ease-out forwards;
+    }
+  </style>
+</head>
+
+<body class="overflow-x-hidden text-black flex flex-col min-h-screen">
+
+<!-- NAVBAR RESPONSIVE -->
+<nav class="fixed top-4 md:top-8 w-full flex flex-wrap justify-center gap-2 md:gap-6 z-50 px-2 md:px-0">
+  <a href="#home" class="nav-link px-4 md:px-8 py-1 md:py-1.5 rounded-full border-[2px] md:border-[2.5px] border-black bg-[#4B82C3] text-black text-xs md:text-base font-medium hover:scale-105 hover:bg-[#4B82C3] transition-all duration-300 cursor-pointer shadow-sm">
+    Home
+  </a>
+  <a href="#about" class="nav-link px-4 md:px-8 py-1 md:py-1.5 rounded-full border-[2px] md:border-[2.5px] border-black bg-[#cccccc] text-black text-xs md:text-base font-medium hover:scale-105 hover:bg-[#4B82C3] transition-all duration-300 cursor-pointer shadow-sm">
+    About
+  </a>
+  <a href="#portofolio" class="nav-link px-4 md:px-8 py-1 md:py-1.5 rounded-full border-[2px] md:border-[2.5px] border-black bg-[#cccccc] text-black text-xs md:text-base font-medium hover:scale-105 hover:bg-[#4B82C3] transition-all duration-300 cursor-pointer shadow-sm">
+    Portofolio
+  </a>
+  <a href="#contact" class="nav-link px-4 md:px-8 py-1 md:py-1.5 rounded-full border-[2px] md:border-[2.5px] border-black bg-[#cccccc] text-black text-xs md:text-base font-medium hover:scale-105 hover:bg-[#4B82C3] transition-all duration-300 cursor-pointer shadow-sm">
+    Contact
+  </a>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="relative min-h-screen w-full flex items-center justify-center px-4 md:px-6 pt-20 md:pt-24 pb-10">
+  <div class="reveal-cool relative w-full max-w-[1200px] h-[75vh] md:h-[80vh] rounded-[30px] md:rounded-[40px] border-[3px] border-black shadow-[0_15px_40px_rgba(0,0,0,0.15)] overflow-hidden mt-6 md:mt-0">
+    <div class="absolute inset-0 bg-cover bg-no-repeat" style="background-image: url('../Gambar/fotogua.jpg'); background-position: 60% 55%;"></div>
+    <div class="absolute inset-0 bg-white/20"></div>
+    <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
+      <h1 class="text-5xl sm:text-6xl md:text-8xl font-black text-black text-shadow-solid tracking-tight">Makky Shirazy</h1>
+      <p class="mt-4 md:mt-5 text-xs sm:text-sm md:text-xl font-semibold text-black bg-white/50 px-4 md:px-6 py-2 rounded-full backdrop-blur-md border border-white/50 shadow-sm">
+        Photographer | Videographer | UI/UX Designer | Social Media Specialist
+      </p>
+      <div class="mt-6 flex justify-center gap-4 md:gap-5 text-2xl md:text-3xl">
+        <a href="https://www.instagram.com/makkyshrzy._?igsh=MXN6cDVwbDhlZW5xZw==" target="_blank" rel="noopener noreferrer" class="bg-white/60 w-12 h-12 md:w-14 md:h-14 flex items-center justify-center rounded-full backdrop-blur-sm border border-white/50 shadow-sm hover:scale-110 transition text-black">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/makky-shirazy-05b189264" target="_blank" rel="noopener noreferrer" class="bg-white/60 w-12 h-12 md:w-14 md:h-14 flex items-center justify-center rounded-full backdrop-blur-sm border border-white/50 shadow-sm hover:scale-110 transition text-black">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="w-full flex flex-col items-center pt-20 md:pt-24 px-4 md:px-6 pb-20">
+  <h1 class="reveal-cool text-4xl md:text-7xl font-bold text-[#222]">About Me</h1>
+  <p class="reveal-cool mt-6 md:mt-8 text-center max-w-4xl text-sm md:text-xl font-medium leading-relaxed text-gray-900" style="transition-delay: 100ms;">
+    Hai, saya Makky Shirazy seorang fotografer dan videografer yang memiliki ambisi untuk terus berkembang, menciptakan karya visual yang memiliki ciri khas pribadi.
+  </p>
+
+  <div class="reveal-cool mt-12 md:mt-16 w-full max-w-5xl flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16" style="transition-delay: 200ms;">
+    <div class="w-full md:w-1/2 flex justify-center">
+        <div class="w-40 h-48 sm:w-56 sm:h-64 md:w-[300px] md:h-[400px] rounded-[30px] md:rounded-[40px] border-[3px] border-black shadow-[0_15px_40px_rgba(0,0,0,0.15)] overflow-hidden bg-white flex items-center justify-center">
+            <img src="../Gambar/fotomakky.jpg" alt="Makky Shirazy" onerror="this.src='https://picsum.photos/400/500?random=102'" class="w-full h-full object-cover object-center hover:scale-110 transition-transform duration-500" />
+        </div>
+    </div>
+    <div class="w-full md:w-1/2 flex flex-col gap-4 md:gap-8 text-sm md:text-xl">
+      <div class="flex items-center gap-3 md:gap-5"><i class="fas fa-chevron-right text-lg md:text-2xl font-black text-black"></i><p><span class="font-semibold">Phone :</span> <span class="font-light ml-2">+6287870515977</span></p></div>
+      <div class="flex items-center gap-3 md:gap-5"><i class="fas fa-chevron-right text-lg md:text-2xl font-black text-black"></i><p><span class="font-semibold">City :</span> <span class="font-light ml-2">Tangerang Selatan, Banten</span></p></div>
+      <div class="flex items-center gap-3 md:gap-5"><i class="fas fa-chevron-right text-lg md:text-2xl font-black text-black"></i><p><span class="font-semibold">Age :</span> <span class="font-light ml-2">19</span></p></div>
+      <div class="flex items-center gap-3 md:gap-5 break-all"><i class="fas fa-chevron-right text-lg md:text-2xl font-black text-black"></i><p><span class="font-semibold">Email :</span> <span class="font-light ml-2">makkyshirazy2@gmail.com</span></p></div>
+    </div>
+  </div>
+
+  <div class="w-full max-w-7xl mx-auto mt-20 md:mt-32">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20">
+      <div class="reveal-cool flex flex-col" style="transition-delay: 150ms;">
+        <h2 class="text-3xl md:text-6xl font-bold text-center text-[#222] mb-8 md:mb-12">Education</h2>
+        <div class="border-l-[1.5px] border-[#3B5249] ml-4 space-y-8 md:space-y-12 pb-8">
+          <div class="relative pl-6 md:pl-8">
+            <div class="absolute -left-[11px] top-1.5 w-[20px] h-[20px] rounded-full border-[1.5px] border-[#3B5249] bg-[#FAFAFA]"></div>
+            <h3 class="text-lg md:text-2xl font-semibold text-[#222]">SMAS Triguna Utama</h3>
+            <p class="text-sm md:text-lg text-gray-600 font-medium mt-1 mb-2">Ilmu Pengetahuan Alam (IPA)</p>
+            <p class="text-sm md:text-xl text-gray-800 mt-1 mb-2 md:mb-4">2022 - 2025</p>
+            <p class="text-xs md:text-[15px] leading-relaxed text-gray-800 text-justify">Mengikuti program studi Ilmu Pengetahuan Alam (IPA) dengan fokus pada pengembangan keterampilan analitis dan pemecahan masalah. Aktif berpartisipasi dalam kegiatan ekstrakurikuler desain grafis dan teknologi informasi, yang memperkuat minat dan keterampilan dalam bidang desain dan teknologi digital.</p>
+          </div>
+          <div class="relative pl-6 md:pl-8">
+            <div class="absolute -left-[11px] top-1.5 w-[20px] h-[20px] rounded-full border-[1.5px] border-[#3B5249] bg-[#FAFAFA]"></div>
+            <h3 class="text-lg md:text-2xl font-semibold text-[#222]">UIN Syarif Hidayatullah Jakarta</h3>
+            <p class="text-sm md:text-lg text-gray-600 font-medium mt-1 mb-2">Sistem Informasi</p>
+            <p class="text-sm md:text-xl text-gray-800 mt-1 mb-2 md:mb-4">2025 - Sekarang</p>
+            <p class="text-xs md:text-[15px] leading-relaxed text-gray-800 text-justify">Sedang menempuh pendidikan di program studi Sistem Informasi dengan fokus pada pengembangan teknologi digital, analisis sistem, dan pemrograman. Memanfaatkan latar belakang akademik ini untuk mendukung aktivitas kreatif di bidang fotografi dan videografi, khususnya dalam pengolahan visual, manajemen konten digital, serta pemanfaatan tools berbasis teknologi.</p>
+          </div>
+        </div>
+      </div>
+      <div class="reveal-cool flex flex-col" style="transition-delay: 300ms;">
+        <h2 class="text-3xl md:text-6xl font-bold text-center text-[#222] mb-8 md:mb-12">Experience</h2>
+        <div class="border-l-[1.5px] border-[#3B5249] ml-4 h-full">
+          <div class="relative pl-6 md:pl-8 pb-8 md:pb-12">
+            <div class="absolute -left-[11px] top-1.5 w-[20px] h-[20px] rounded-full border-[1.5px] border-[#3B5249] bg-[#FAFAFA]"></div>
+            <h3 class="text-lg md:text-2xl font-semibold text-[#222]">Organisasi Intra Sekolah (OSIS)</h3>
+            <p class="text-sm md:text-lg text-gray-600 font-medium mt-1 mb-2">Ketua Divisi TIK</p>
+            <p class="text-sm md:text-xl text-gray-800 mb-2 md:mb-4">2022 - 2025</p>
+            <ul class="list-disc list-outside ml-4 md:ml-5 text-xs md:text-[15px] leading-relaxed text-gray-800 space-y-2">
+              <li>Memimpin Divisi TIK dalam pengelolaan dokumentasi dan publikasi digital organisasi</li>
+              <li>Terlibat dalam 12+ event (end-to-end execution)</li>
+              <li>Bertanggung jawab sebagai fotografer & videografer utama</li>
+              <li>Menghasilkan konten visual untuk kebutuhan branding dan publikasi</li>
+              <li>Social Media Specialist akun Instagram OSIS SMAS Triguna Utama selama 2 periode</li>
+              <li>Terbiasa bekerja dengan deadline dan tekanan event</li>
+            </ul>
+          </div>
+
+          <div class="relative pl-6 md:pl-8 pb-8 md:pb-12">
+            <div class="absolute -left-[11px] top-1.5 w-[20px] h-[20px] rounded-full border-[1.5px] border-[#3B5249] bg-[#FAFAFA]"></div>
+            <h3 class="text-lg md:text-2xl font-semibold text-[#222]">Himpunan Sistem Informasi (HIMSI)</h3>
+            <p class="text-sm md:text-lg text-gray-600 font-medium mt-1 mb-2">Video Creative</p>
+            <p class="text-sm md:text-xl text-gray-800 mb-2 md:mb-4">2026 - Sekarang</p>
+            <ul class="list-disc list-outside ml-4 md:ml-5 text-xs md:text-[15px] leading-relaxed text-gray-800 space-y-2">
+              <li>Menangani segala bentuk jobdesk videografi organisasi</li>
+              <li>Membuat konten video untuk media sosial (Instagram dan platform lainnya)</li>
+              <li>Memproduksi teaser event dan after movie untuk setiap kegiatan HIMSI</li>
+              <li>Berkolaborasi dengan tim kreatif dalam konsep dan eksekusi video</li>
+              <li>Mengelola editing dan post-production hingga final delivery</li>
+            </ul>
+          </div>
+
+          <div class="relative pl-6 md:pl-8">
+            <div class="absolute -left-[11px] top-1.5 w-[20px] h-[20px] rounded-full border-[1.5px] border-[#3B5249] bg-[#FAFAFA]"></div>
+            <h3 class="text-lg md:text-2xl font-semibold text-[#222]">Dapur Seni</h3>
+            <p class="text-sm md:text-lg text-gray-600 font-medium mt-1 mb-2">Sinematografi</p>
+            <p class="text-sm md:text-xl text-gray-800 mb-2 md:mb-4">2026 - Sekarang</p>
+            <ul class="list-disc list-outside ml-4 md:ml-5 text-xs md:text-[15px] leading-relaxed text-gray-800 space-y-2">
+              <li>Melatih dan mengembangkan skill cinematografi dan fotografi</li>
+              <li>Mempelajari teknik memotret dan penguasaan angle foto yang baik</li>
+              <li>Bereksperimen dengan berbagai komposisi visual dan pencahayaan</li>
+              <li>Menyalurkan hobi bermusik dalam ekosistem organisasi seni</li>
+              <li>Berkolaborasi dengan anggota organisasi dalam project kreatif</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTOFOLIO SHOWCASE -->
+<section id="portofolio" class="relative w-full min-h-[100vh] flex flex-col items-center pt-24 md:pt-32 px-4 md:px-6 pb-20 bg-gradient-to-b from-[#F8F9FA] to-[#E8E9F0]">
+  <div class="relative z-10 w-full max-w-7xl flex flex-col items-center">
+
+    <h2 class="reveal-cool text-4xl md:text-6xl font-bold text-[#222] mb-4 md:mb-6">My Work</h2>
+    <p class="reveal-cool text-gray-600 font-medium text-sm md:text-lg mb-16 tracking-wide text-center max-w-2xl" style="transition-delay: 100ms;">
+      Jelajahi koleksi event photography dan videography saya. Setiap momen dokumentasi dengan detail dan kreativitas tinggi.
+    </p>
+
+    <div class="reveal-cool w-full relative z-10 space-y-16 md:space-y-20" style="transition-delay: 200ms;">
+
+      <!-- High School Project Card with Events Grid Inside -->
+      <div data-project="high-school" data-events="5" data-media-prefix="8+" data-total-media="8"
+           class="group relative overflow-hidden rounded-[30px] shadow-xl border-[2px] md:border-[3px] border-black bg-white cursor-pointer transform hover:scale-102 transition-all duration-300"
+           onclick="location.href='High School Project/events.html'">
+
+        <!-- Header Section -->
+        <div class="p-8 md:p-12 border-b-[2px] border-gray-200 bg-gradient-to-r from-[#667eea] to-[#764ba2]">
+          <h3 class="text-3xl md:text-5xl font-bold text-white mb-2">High School Project</h3>
+          <p id="high-school-desc" class="text-white/80 text-sm md:text-base">5 Event spesial dengan koleksi foto & video berkualitas tinggi</p>
+        </div>
+
+        <!-- Events Grid Preview -->
+        <div class="p-6 md:p-8">
+          <div class="grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-4 mb-6">
+            <!-- Event 1: Kimbo -->
+            <div class="relative h-24 md:h-28 rounded-[15px] overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition group/item">
+              <img src="./High School Project/Gambar/FotoPorto1.png" alt="Kimbo" class="w-full h-full object-cover group-hover/item:scale-110 transition duration-300"
+                   onerror="this.src='https://images.unsplash.com/photo-1540575467063-178f50002c4b?w=300&h=300&fit=crop'">
+              <div class="absolute inset-0 bg-black/0 group-hover/item:bg-black/30 transition"></div>
+            </div>
+
+            <!-- Event 2: Workshop -->
+            <div class="relative h-24 md:h-28 rounded-[15px] overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition group/item">
+              <img src="./High School Project/Gambar/WORKSHOP.png" alt="Workshop" class="w-full h-full object-cover group-hover/item:scale-110 transition duration-300"
+                   onerror="this.src='https://images.unsplash.com/photo-1552664730-d307ca884978?w=300&h=300&fit=crop'">
+              <div class="absolute inset-0 bg-black/0 group-hover/item:bg-black/30 transition"></div>
+            </div>
+
+            <!-- Event 3: MPLS -->
+            <div class="relative h-24 md:h-28 rounded-[15px] overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition group/item">
+              <video autoplay muted loop class="w-full h-full object-cover group-hover/item:scale-110 transition duration-300">
+                <source src="./High School Project/Gambar/MPLS 2023.mp4" type="video/mp4">
+              </video>
+              <div class="absolute inset-0 bg-black/0 group-hover/item:bg-black/30 transition flex items-center justify-center">
+                <i class="fas fa-play-circle text-white text-sm opacity-0 group-hover/item:opacity-100 transition"></i>
+              </div>
+            </div>
+
+            <!-- Event 4: Pesantren -->
+            <div class="relative h-24 md:h-28 rounded-[15px] overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition group/item">
+              <video autoplay muted loop class="w-full h-full object-cover group-hover/item:scale-110 transition duration-300">
+                <source src="./High School Project/Gambar/PESANTREN KILAT.mp4" type="video/mp4">
+              </video>
+              <div class="absolute inset-0 bg-black/0 group-hover/item:bg-black/30 transition flex items-center justify-center">
+                <i class="fas fa-play-circle text-white text-sm opacity-0 group-hover/item:opacity-100 transition"></i>
+              </div>
+            </div>
+
+            <!-- Event 5: Hari Guru -->
+            <div class="relative h-24 md:h-28 rounded-[15px] overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition group/item">
+              <video autoplay muted loop class="w-full h-full object-cover group-hover/item:scale-110 transition duration-300">
+                <source src="./High School Project/Gambar/HARI GURU.mp4" type="video/mp4">
+              </video>
+              <div class="absolute inset-0 bg-black/0 group-hover/item:bg-black/30 transition flex items-center justify-center">
+                <i class="fas fa-play-circle text-white text-sm opacity-0 group-hover/item:opacity-100 transition"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stats & CTA -->
+          <div class="flex flex-col md:flex-row items-center justify-between pt-6 border-t border-gray-200">
+            <div class="flex gap-6 mb-4 md:mb-0">
+              <div class="text-center">
+                <div id="high-school-events" class="text-2xl md:text-3xl font-bold text-[#667eea]">5</div>
+                <p class="text-xs text-gray-600">Events</p>
+              </div>
+              <div class="text-center">
+                <div id="high-school-media" class="text-2xl md:text-3xl font-bold text-[#667eea]">8+</div>
+                <p class="text-xs text-gray-600">Media</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-3 text-[#667eea] font-semibold group-hover:gap-5 transition-all duration-300">
+              <span>Jelajahi Semua</span>
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- College Project Card -->
+      <div data-project="college" data-events="6" data-media-prefix="" data-total-media="36"
+           class="group relative overflow-hidden rounded-[30px] shadow-xl border-[2px] md:border-[3px] border-black bg-white cursor-pointer transform hover:scale-102 transition-all duration-300"
+           onclick="location.href='College Project/events.html'">
+
+        <!-- Header Section -->
+        <div class="p-8 md:p-12 border-b-[2px] border-gray-200 bg-gradient-to-r from-[#f59e0b] to-[#d97706]">
+          <h3 class="text-3xl md:text-5xl font-bold text-white mb-2">College Project</h3>
+          <p id="college-desc" class="text-white/80 text-sm md:text-base">6 Event spesial dengan koleksi foto & video berkualitas tinggi</p>
+        </div>
+
+        <!-- Events Grid Preview -->
+        <div class="p-6 md:p-8">
+          <div class="grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-4 mb-6">
+            <!-- Event 1: Band Dalem -->
+            <div class="relative h-24 md:h-28 rounded-[15px] overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition group/item">
+              <img src="./College Project/Gambar/Band Dalem (1).jpg" alt="Band Dalem" class="w-full h-full object-cover group-hover/item:scale-110 transition duration-300"
+                   onerror="this.src='https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=300&h=300&fit=crop'">
+              <div class="absolute inset-0 bg-black/0 group-hover/item:bg-black/30 transition"></div>
+            </div>
+
+            <!-- Event 2: PBAK SI 2026 -->
+            <div class="relative h-24 md:h-28 rounded-[15px] overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition group/item">
+              <img src="./College Project/Gambar/PBAK 0.jpg" alt="PBAK SI 2026" class="w-full h-full object-cover group-hover/item:scale-110 transition duration-300"
+                   onerror="this.src='https://picsum.photos/300/300?random=pbak'">
+              <div class="absolute inset-0 bg-black/0 group-hover/item:bg-black/30 transition"></div>
+            </div>
+
+            <!-- Event 3: Seminar Fotografi Dapur Seni X AIESEC -->
+            <div class="relative h-24 md:h-28 rounded-[15px] overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition group/item">
+              <img src="./College Project/Gambar/SEM DS 6.jpg" alt="Seminar Fotografi" class="w-full h-full object-cover group-hover/item:scale-110 transition duration-300"
+                   onerror="this.src='https://picsum.photos/300/300?random=seminar'">
+              <div class="absolute inset-0 bg-black/0 group-hover/item:bg-black/30 transition"></div>
+            </div>
+
+            <!-- Event 4: Teaser PBAK -->
+            <div class="relative h-24 md:h-28 rounded-[15px] overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition group/item">
+              <video autoplay muted loop class="w-full h-full object-cover group-hover/item:scale-110 transition duration-300">
+                <source src="./College Project/Gambar/Teaser PBAK.mp4" type="video/mp4">
+              </video>
+              <div class="absolute inset-0 bg-black/0 group-hover/item:bg-black/30 transition flex items-center justify-center">
+                <i class="fas fa-play-circle text-white text-sm opacity-0 group-hover/item:opacity-100 transition"></i>
+              </div>
+            </div>
+
+            <!-- Event 5: Sipillion Cup 2026 -->
+            <div class="relative h-24 md:h-28 rounded-[15px] overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition group/item">
+              <img src="./College Project/Gambar/Sipillion Cup 11.jpg" alt="Sipillion Cup 2026" class="w-full h-full object-cover group-hover/item:scale-110 transition duration-300"
+                   onerror="this.src='https://picsum.photos/300/300?random=sipillion'">
+              <div class="absolute inset-0 bg-black/0 group-hover/item:bg-black/30 transition"></div>
+            </div>
+
+            <!-- Event 6: Teaser Ramadhan Series -->
+            <div class="relative h-24 md:h-28 rounded-[15px] overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition group/item">
+              <video autoplay muted loop class="w-full h-full object-cover group-hover/item:scale-110 transition duration-300">
+                <source src="./College Project/Gambar/Teaser Ramadhan Series.mp4" type="video/mp4">
+              </video>
+              <div class="absolute inset-0 bg-black/0 group-hover/item:bg-black/30 transition flex items-center justify-center">
+                <i class="fas fa-play-circle text-white text-sm opacity-0 group-hover/item:opacity-100 transition"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stats & CTA -->
+          <div class="flex flex-col md:flex-row items-center justify-between pt-6 border-t border-gray-200">
+            <div class="flex gap-6 mb-4 md:mb-0">
+              <div class="text-center">
+                <div id="college-events" class="text-2xl md:text-3xl font-bold text-[#f59e0b]">6</div>
+                <p class="text-xs text-gray-600">Events</p>
+              </div>
+              <div class="text-center">
+                <div id="college-media" class="text-2xl md:text-3xl font-bold text-[#f59e0b]">36</div>
+                <p class="text-xs text-gray-600">Media</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-3 text-[#f59e0b] font-semibold group-hover:gap-5 transition-all duration-300">
+              <span>Jelajahi Semua</span>
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Certificate Card -->
+      <div data-project="certificate" data-events="6" data-media-prefix="" data-total-media="6"
+           class="group relative overflow-hidden rounded-[30px] shadow-xl border-[2px] md:border-[3px] border-black bg-white cursor-pointer transform hover:scale-102 transition-all duration-300"
+           onclick="location.href='Certificate/events.html'">
+
+        <!-- Header Section -->
+        <div class="p-8 md:p-12 border-b-[2px] border-gray-200 bg-gradient-to-r from-[#10b981] to-[#059669]">
+          <h3 class="text-3xl md:text-5xl font-bold text-white mb-2">Certificate</h3>
+          <p id="certificate-desc" class="text-white/80 text-sm md:text-base">Koleksi sertifikat event maupun penghargaan lainnya</p>
+        </div>
+
+        <!-- Events Grid Preview -->
+        <div class="p-6 md:p-8">
+          <div class="grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-4 mb-6">
+            <!-- Certificate 1: Elfast -->
+            <div class="relative h-24 md:h-28 rounded-[15px] overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition group/item">
+              <img src="./College Project/Gambar/Sertifikat Elfast.jpeg" alt="Sertifikat Elfast" class="w-full h-full object-cover group-hover/item:scale-110 transition duration-300"
+                   onerror="this.src='https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=300&h=300&fit=crop'">
+              <div class="absolute inset-0 bg-black/0 group-hover/item:bg-black/30 transition"></div>
+            </div>
+
+            <!-- Certificate 2: OSIS -->
+            <div class="relative h-24 md:h-28 rounded-[15px] overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition group/item">
+              <img src="./College Project/Gambar/Sertifikat OSIS.jpeg" alt="Sertifikat OSIS" class="w-full h-full object-cover group-hover/item:scale-110 transition duration-300"
+                   onerror="this.src='https://images.unsplash.com/photo-1516383740770-fb0905ee179a?w=300&h=300&fit=crop'">
+              <div class="absolute inset-0 bg-black/0 group-hover/item:bg-black/30 transition"></div>
+            </div>
+
+            <!-- Certificate 3: PBAK SI 2026 -->
+            <div class="relative h-24 md:h-28 rounded-[15px] overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition group/item">
+              <img src="./College Project/Gambar/Sertifikat PBAK SI 2026.jpg" alt="Sertifikat PBAK SI 2026" class="w-full h-full object-cover group-hover/item:scale-110 transition duration-300"
+                   onerror="this.src='https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=300&h=300&fit=crop'">
+              <div class="absolute inset-0 bg-black/0 group-hover/item:bg-black/30 transition"></div>
+            </div>
+
+            <!-- Certificate 4: Ramadhan Series -->
+            <div class="relative h-24 md:h-28 rounded-[15px] overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition group/item">
+              <img src="./College Project/Gambar/Sertifikat Ramadhan Series.png" alt="Sertifikat Ramadhan Series" class="w-full h-full object-cover group-hover/item:scale-110 transition duration-300"
+                   onerror="this.src='https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=300&h=300&fit=crop'">
+              <div class="absolute inset-0 bg-black/0 group-hover/item:bg-black/30 transition"></div>
+            </div>
+
+            <!-- Certificate 5: Training Camp -->
+            <div class="relative h-24 md:h-28 rounded-[15px] overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition group/item">
+              <img src="./College Project/Gambar/Sertifikat Training Camp.png" alt="Sertifikat Training Camp" class="w-full h-full object-cover group-hover/item:scale-110 transition duration-300"
+                   onerror="this.src='https://images.unsplash.com/photo-1455390582262-044cdead277a?w=300&h=300&fit=crop'">
+              <div class="absolute inset-0 bg-black/0 group-hover/item:bg-black/30 transition"></div>
+            </div>
+
+            <!-- Certificate 6: Workshop OSIS -->
+            <div class="relative h-24 md:h-28 rounded-[15px] overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition group/item">
+              <img src="./College Project/Gambar/Sertifikat Workshop OSIS.jpeg" alt="Sertifikat Workshop OSIS" class="w-full h-full object-cover group-hover/item:scale-110 transition duration-300"
+                   onerror="this.src='https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=300&h=300&fit=crop'">
+              <div class="absolute inset-0 bg-black/0 group-hover/item:bg-black/30 transition"></div>
+            </div>
+          </div>
+
+          <!-- Stats & CTA -->
+          <div class="flex flex-col md:flex-row items-center justify-between pt-6 border-t border-gray-200">
+            <div class="flex gap-6 mb-4 md:mb-0">
+              <div class="text-center">
+                <div id="certificate-events" class="text-2xl md:text-3xl font-bold text-[#10b981]">6</div>
+                <p class="text-xs text-gray-600">Sertifikat</p>
+              </div>
+              <div class="text-center">
+                <div id="certificate-media" class="text-2xl md:text-3xl font-bold text-[#10b981]">6</div>
+                <p class="text-xs text-gray-600">Media</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-3 text-[#10b981] font-semibold group-hover:gap-5 transition-all duration-300">
+              <span>Jelajahi Semua</span>
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+
+<!-- INSTAGRAM SECTION -->
+<section class="w-full flex flex-col items-center pt-20 md:pt-24 px-4 md:px-6 pb-20 bg-gradient-to-b from-[#F8F9FA] to-[#E8E9F0]">
+  <div class="reveal-cool w-full max-w-3xl">
+    <div class="group relative rounded-[20px] md:rounded-[30px] border-[2px] md:border-[3px] border-black bg-white shadow-lg cursor-pointer hover:shadow-xl transition-all duration-300 p-8 md:p-12 text-center"
+         onclick="window.open('https://www.instagram.com/obscura.dx/', '_blank')">
+
+      <div class="flex flex-col items-center gap-4 md:gap-6">
+        <i class="fab fa-instagram text-[#E1306C] text-4xl md:text-5xl"></i>
+
+        <div>
+          <p class="text-black text-base md:text-lg font-medium mb-3">
+            For more content kunjungi akun Instagram saya
+          </p>
+          <h2 class="text-3xl md:text-4xl font-bold text-black">@obscura.dx</h2>
+        </div>
+
+        <div class="flex items-center gap-2 text-[#E1306C] font-semibold group-hover:gap-4 transition-all">
+          <span>Buka Instagram</span>
+          <i class="fas fa-arrow-right"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="w-full flex flex-col items-center pt-24 md:pt-32 px-4 md:px-6 pb-20" style="perspective: 1000px;">
+  
+  <p class="reveal-cool text-[#4B82C3] font-black text-sm md:text-base tracking-[0.2em] uppercase mb-2 md:mb-4 drop-shadow-sm text-center">Start Build Something Great</p>
+  <h1 class="reveal-cool text-4xl md:text-6xl font-black text-[#222] mb-12 md:mb-20 text-center tracking-tight" style="transition-delay: 50ms;">Have some idea? Let's talk</h1>
+
+  <div class="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24">
+    
+    <div class="reveal-cool flex flex-col gap-8 md:gap-10" style="transition-delay: 150ms;">
+       <h2 class="text-3xl md:text-4xl font-bold text-[#222]">Get in Touch</h2>
+       
+       <div class="flex flex-col gap-6 md:gap-8">
+         <div>
+            <p class="text-xs md:text-sm font-bold text-gray-400 tracking-widest uppercase mb-1 md:mb-2">Email Resmi</p>
+            <p class="text-sm md:text-xl font-bold text-black border-l-4 border-[#FDE047] pl-3 md:pl-4 transition-all hover:pl-6 hover:text-[#4B82C3]">makkyshirazy2@gmail.com</p>
+         </div>
+         <div>
+            <p class="text-xs md:text-sm font-bold text-gray-400 tracking-widest uppercase mb-1 md:mb-2">Whatsapp / Phone</p>
+            <p class="text-sm md:text-xl font-bold text-black border-l-4 border-[#FDE047] pl-3 md:pl-4 transition-all hover:pl-6 hover:text-[#4B82C3]">+62 878-7051-5977</p>
+         </div>
+         <div>
+            <p class="text-xs md:text-sm font-bold text-gray-400 tracking-widest uppercase mb-1 md:mb-2">Location</p>
+            <p class="text-sm md:text-xl font-bold text-black border-l-4 border-[#FDE047] pl-3 md:pl-4 transition-all hover:pl-6 hover:text-[#4B82C3]">Tangerang Selatan, Banten</p>
+         </div>
+       </div>
+    </div>
+
+    <div class="reveal-cool bg-white rounded-[30px] md:rounded-[40px] border-[2px] md:border-[3px] border-black shadow-[0_15px_40px_rgba(0,0,0,0.15)] p-6 md:p-12" style="transition-delay: 300ms;">
+       <h2 class="text-2xl md:text-3xl font-bold text-[#222] mb-6 md:mb-8">Send Message</h2>
+
+       <!-- Success Message -->
+       <div id="success-message" class="hidden mb-6 p-4 md:p-6 bg-green-50 border-l-4 border-green-500 rounded-lg animate-in fade-in">
+          <div class="flex items-center gap-3">
+             <i class="fas fa-check-circle text-green-500 text-2xl"></i>
+             <div>
+                <h3 class="font-bold text-green-700">Message Sent Successfully!</h3>
+                <p class="text-sm text-green-600">Thank you for reaching out. I'll get back to you soon.</p>
+             </div>
+          </div>
+       </div>
+
+       <!-- Error Message -->
+       <div id="error-message" class="hidden mb-6 p-4 md:p-6 bg-red-50 border-l-4 border-red-500 rounded-lg animate-in fade-in">
+          <div class="flex items-center gap-3">
+             <i class="fas fa-exclamation-circle text-red-500 text-2xl"></i>
+             <div>
+                <h3 class="font-bold text-red-700">Failed to Send Message</h3>
+                <p id="error-text" class="text-sm text-red-600">Please try again or contact me via other methods.</p>
+             </div>
+          </div>
+       </div>
+
+       <form id="contact-form" class="flex flex-col gap-4 md:gap-6">
+          <div class="flex flex-col md:flex-row gap-4 md:gap-6">
+             <div class="flex flex-col flex-1">
+                <label class="text-[10px] md:text-xs font-bold text-gray-500 uppercase tracking-widest mb-1 md:mb-2">Name</label>
+                <input type="text" name="name" placeholder="Your Name" required class="w-full border-b-[2px] border-gray-300 focus:border-[#4B82C3] outline-none bg-transparent py-2 text-sm md:text-base text-black font-medium transition-colors">
+             </div>
+             <div class="flex flex-col flex-1">
+                <label class="text-[10px] md:text-xs font-bold text-gray-500 uppercase tracking-widest mb-1 md:mb-2">Email</label>
+                <input type="email" name="email" placeholder="Your Email" required class="w-full border-b-[2px] border-gray-300 focus:border-[#4B82C3] outline-none bg-transparent py-2 text-sm md:text-base text-black font-medium transition-colors">
+             </div>
+          </div>
+          <div class="flex flex-col mt-2">
+             <label class="text-[10px] md:text-xs font-bold text-gray-500 uppercase tracking-widest mb-1 md:mb-2">Subject</label>
+             <input type="text" name="subject" placeholder="Subject" required class="w-full border-b-[2px] border-gray-300 focus:border-[#4B82C3] outline-none bg-transparent py-2 text-sm md:text-base text-black font-medium transition-colors">
+          </div>
+          <div class="flex flex-col mt-2">
+             <label class="text-[10px] md:text-xs font-bold text-gray-500 uppercase tracking-widest mb-1 md:mb-2">Message</label>
+             <textarea name="message" rows="3" placeholder="Your Message" required class="w-full border-b-[2px] border-gray-300 focus:border-[#4B82C3] outline-none bg-transparent py-2 text-sm md:text-base text-black font-medium transition-colors resize-none"></textarea>
+          </div>
+          <button type="submit" id="submit-btn" class="mt-6 md:mt-8 bg-[#4B82C3] text-white text-sm md:text-base font-bold tracking-widest uppercase py-3 md:py-4 rounded-full border-[2px] md:border-[2.5px] border-black hover:bg-[#FDE047] hover:text-black transition-all duration-300 w-full md:w-auto md:px-12 self-start shadow-[0_5px_15px_rgba(0,0,0,0.1)] hover:scale-105 transform flex items-center justify-center gap-2">
+             <span id="btn-text">Send Message</span>
+             <i id="btn-icon" class="fas fa-paper-plane hidden"></i>
+             <div id="btn-spinner" class="hidden">
+                <div class="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+             </div>
+          </button>
+       </form>
+    </div>
+
+  </div>
+</section>
+
+<footer class="w-full py-8 md:py-10 mt-8 md:mt-12 flex justify-center items-center">
+  <p class="text-gray-400 font-semibold text-[10px] md:text-sm tracking-widest text-center">
+    &copy; 2026 MAKKY SHIRAZY. ALL RIGHTS RESERVED.
+  </p>
+</footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+
+    // FORM SUBMISSION HANDLER
+    const contactForm = document.getElementById('contact-form');
+    if (contactForm) {
+      contactForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        const submitBtn = document.getElementById('submit-btn');
+        const btnText = document.getElementById('btn-text');
+        const btnSpinner = document.getElementById('btn-spinner');
+        const successMsg = document.getElementById('success-message');
+        const errorMsg = document.getElementById('error-message');
+
+        // Hide previous messages
+        successMsg.classList.add('hidden');
+        errorMsg.classList.add('hidden');
+
+        // Show loading state
+        submitBtn.disabled = true;
+        btnText.classList.add('hidden');
+        btnSpinner.classList.remove('hidden');
+
+        try {
+          const formData = new FormData(contactForm);
+          const response = await fetch('https://formspree.io/f/xqenpnvg', {
+            method: 'POST',
+            body: formData,
+            headers: {
+              'Accept': 'application/json'
+            }
+          });
+
+          if (response.ok) {
+            // Success!
+            successMsg.classList.remove('hidden');
+            contactForm.reset();
+
+            // Hide success message after 5 seconds
+            setTimeout(() => {
+              successMsg.classList.add('hidden');
+            }, 5000);
+          } else {
+            throw new Error('Form submission failed');
+          }
+        } catch (error) {
+          // Show error
+          errorMsg.classList.remove('hidden');
+          console.error('Error:', error);
+        } finally {
+          // Reset button state
+          submitBtn.disabled = false;
+          btnText.classList.remove('hidden');
+          btnSpinner.classList.add('hidden');
+        }
+      });
+    }
+
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        if (scrollY >= (sectionTop - 150)) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('bg-[#4B82C3]');
+        link.classList.add('bg-[#cccccc]');
+        if (link.getAttribute('href') === `#${current}`) {
+          link.classList.remove('bg-[#cccccc]');
+          link.classList.add('bg-[#4B82C3]');
+        }
+      });
+    });
+
+    function reveal() {
+      var reveals = document.querySelectorAll(".reveal, .reveal-cool");
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 50;
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        }
+      }
+    }
+    window.addEventListener("scroll", reveal);
+    reveal();
+
+    // AUTO-POPULATE PROJECT CARD STATS (sumber angka: data-events / data-total-media)
+    document.querySelectorAll('[data-project]').forEach(card => {
+      const id = card.getAttribute('data-project');
+      const eventCount = card.getAttribute('data-events');
+      const totalMedia = card.getAttribute('data-total-media');
+      const mediaPrefix = card.getAttribute('data-media-prefix') || '';
+
+      const eventsEl = document.getElementById(`${id}-events`);
+      const mediaEl = document.getElementById(`${id}-media`);
+      const descEl = document.getElementById(`${id}-desc`);
+
+      if (eventsEl) eventsEl.textContent = eventCount;
+      if (mediaEl) mediaEl.textContent = mediaPrefix + totalMedia;
+      if (descEl) {
+        const label = id === 'certificate' ? 'Sertifikat' : (id === 'high-school' ? 'Event' : 'Event');
+        descEl.innerHTML = descEl.innerHTML.replace(/^\d+|\d+\s+Event|\d+\s+Sertifikat/, `${eventCount} ${label === 'Sertifikat' ? 'Sertifikat' : 'Event'}`);
+      }
+    });
+
+  });
+
+</script>
+
+</body>
+</html>

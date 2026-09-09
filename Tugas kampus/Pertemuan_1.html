@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas Portofolio HTML</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tugas membuat website portofolio sederhana">
+    <meta name="author" content="Nama Kamu">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+        <h1>Portofolio Saya</h1>
+        <nav>
+            <a href="#hero">Hero</a> |
+            <a href="#about">Tentang</a> |
+            <a href="#skills">Skill</a> |
+            <a href="#projects">Project</a> |
+            <a href="#contact">Kontak</a>
+        </nav>
+        <hr>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section id="hero">
+        <h2>Halo, Saya <span id="heroName">Makky Shirazy</span></h2>
+        <p>Saya adalah mahasiswa Sistem Informasi semester 2 yang sedang belajar Web Development.</p>
+        <img src="Gambar/de0198bd-4d0e-4d3f-a3ae-5f9af8c5b168.jfif" alt="Foto Saya">
+    </section>
+
+    <hr>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <div>
+            <p>
+                Saya memiliki minat di bidang teknologi, khususnya pengembangan website.
+                Saat ini saya sedang mempelajari HTML, CSS, dan JavaScript untuk
+                membangun website yang menarik dan interaktif.
+            </p>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills">
+        <h2>Skill</h2>
+
+        <h3>Hard Skill</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS Dasar</li>
+            <li>JavaScript Dasar</li>
+        </ul>
+
+        <h3>Soft Skill</h3>
+        <ol>
+            <li>Komunikasi</li>
+            <li>Kerja Tim</li>
+            <li>Manajemen Waktu</li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <!-- ================= PROJECT ================= -->
+    <section id="projects">
+        <h2>Project</h2>
+
+        <div>
+            <h3>Website Portofolio</h3>
+            <img src="https://via.placeholder.com/200" alt="Project 1">
+            <p>UI/UX Portofolio saya</p>
+            <a href="#" target="_blank">Lihat Project</a>
+        </div>
+
+        <div>
+            <h3>Landing Page Produk</h3>
+            <img src="https://via.placeholder.com/200" alt="Project 2">
+            <p>Membuat landing page sederhana untuk produk.</p>
+            <a href="#" target="_blank">Lihat Project</a>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact">
+        <h2>Kontak</h2>
+        <form id="contactForm" method="post">
+            <label>Nama:</label><br>
+            <input type="text" id="nama" required><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" required><br><br>
+
+            <label>Pesan:</label><br>
+            <textarea rows="4" cols="30"></textarea><br><br>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <p>&copy; 2026 Makky Shirazy. All rights reserved.</p>
+    </footer>
+
+    <!-- SCRIPT JANGAN DIUBAH -->
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            var namaInput = document.getElementById("nama").value;
+            var heroName = document.getElementById("heroName");
+
+            if(namaInput.trim() !== "") {
+                heroName.textContent = namaInput;
+            }
+        });
+    </script>
+
+</body>
+</html>

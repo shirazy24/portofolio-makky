@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>High School Project - Makky Shirazy</title>
+  <meta name="description" content="Koleksi event photography & videography proyek SMA Makky Shirazy: Kimbo X Prambors, Workshop, MPLS, Pesantren Kilat, dan Hari Guru.">
+  <meta name="author" content="Makky Shirazy">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="High School Project - Makky Shirazy">
+  <meta property="og:description" content="Koleksi event photography & videography proyek SMA Makky Shirazy.">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+    }
+
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes slideIn { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+
+    .animate-fade-in { animation: fadeIn 0.3s ease-out; }
+    .animate-slide-in { animation: slideIn 0.5s ease-out; }
+
+    .event-thumbnail {
+      aspect-ratio: 16/9;
+      background: linear-gradient(135deg, rgba(102, 126, 234, 0.4), rgba(118, 75, 162, 0.4));
+    }
+
+    .photo-grid-item:hover img { transform: scale(1.05); }
+    .photo-grid-item img { transition: transform 0.3s ease; }
+
+    .viewer-fade { animation: fadeIn 0.4s ease-out; }
+  </style>
+</head>
+
+<body class="text-white">
+
+<!-- HEADER -->
+<header class="sticky top-0 z-40 bg-black/20 backdrop-blur-md border-b border-white/10">
+  <div class="max-w-7xl mx-auto px-4 md:px-6 py-4 flex items-center justify-between">
+    <a href="../index.html" class="flex items-center gap-2 hover:opacity-80 transition">
+      <i class="fas fa-chevron-left"></i>
+      <span class="font-bold text-sm md:text-base">Kembali</span>
+    </a>
+    <h1 class="text-xl md:text-2xl font-bold">High School Project</h1>
+    <div class="w-20"></div>
+  </div>
+</header>
+
+<!-- MAIN CONTENT -->
+<main class="max-w-7xl mx-auto px-4 md:px-6 py-12">
+
+  <!-- EVENTS LIST -->
+  <section id="events-section" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 animate-slide-in">
+
+    <!-- Event 1: Kimbo X Prambors -->
+    <div class="group cursor-pointer" onclick="selectEvent('kimbo-prambors')">
+      <div class="event-thumbnail relative overflow-hidden rounded-2xl shadow-lg border border-white/10 hover:border-white/30 transition mb-4">
+        <img src="./Gambar/FotoPorto1.png" alt="Kimbo X Prambors"
+             class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500"
+             onerror="this.src='https://images.unsplash.com/photo-1540575467063-178f50002c4b?w=500&h=300&fit=crop'">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/80 opacity-0 group-hover:opacity-100 transition duration-300"></div>
+        <div class="absolute inset-0 flex items-end p-6 opacity-0 group-hover:opacity-100 transition duration-300">
+          <div>
+            <p class="text-[#667eea] text-xs font-bold tracking-widest uppercase mb-1">Event</p>
+            <h3 class="text-white text-lg font-bold">Kimbo X Prambors</h3>
+          </div>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <h3 class="font-semibold text-lg text-white group-hover:text-[#667eea] transition">Kimbo X Prambors</h3>
+        <p class="text-sm text-white/60 flex items-center gap-2">
+          <i class="fas fa-calendar-alt w-4"></i>
+          2 September 2024
+        </p>
+        <p class="text-sm text-white/70">Kolaborasi Kimbo dengan Prambors menampilkan Melissa Putri</p>
+        <p class="text-xs text-[#667eea] font-semibold mt-3">5 Photos • Lihat Gallery →</p>
+      </div>
+    </div>
+
+<!-- Event 3: Workshop & Seminar -->
+    <div class="group cursor-pointer" onclick="selectEvent('workshop')">
+      <div class="event-thumbnail relative overflow-hidden rounded-2xl shadow-lg border border-white/10 hover:border-white/30 transition mb-4">
+        <img src="./Gambar/WORKSHOP.png" alt="Workshop"
+             class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500"
+             onerror="this.src='https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop'">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/80 opacity-0 group-hover:opacity-100 transition duration-300"></div>
+        <div class="absolute inset-0 flex items-end p-6 opacity-0 group-hover:opacity-100 transition duration-300">
+          <div>
+            <p class="text-[#667eea] text-xs font-bold tracking-widest uppercase mb-1">Event</p>
+            <h3 class="text-white text-lg font-bold">Workshop</h3>
+          </div>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <h3 class="font-semibold text-lg text-white group-hover:text-[#667eea] transition">Workshop & Seminar</h3>
+        <p class="text-sm text-white/60 flex items-center gap-2">
+          <i class="fas fa-calendar-alt w-4"></i>
+          26 Juni 2024
+        </p>
+        <p class="text-sm text-white/70">Workshop desain digital dan seminar pendidikan</p>
+        <p class="text-xs text-[#667eea] font-semibold mt-3">3 Photos • Lihat Gallery →</p>
+      </div>
+    </div>
+
+    <!-- Event 4: MPLS -->
+    <div class="group cursor-pointer" onclick="selectEvent('mpls')">
+      <div class="event-thumbnail relative overflow-hidden rounded-2xl shadow-lg border border-white/10 hover:border-white/30 transition mb-4">
+        <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          <source src="./Gambar/MPLS 2023.mp4" type="video/mp4">
+        </video>
+        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+          <i class="fas fa-play-circle text-4xl drop-shadow-lg"></i>
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/80 opacity-0 group-hover:opacity-100 transition duration-300"></div>
+        <div class="absolute inset-0 flex items-end p-6 opacity-0 group-hover:opacity-100 transition duration-300">
+          <div>
+            <p class="text-[#fbbf24] text-xs font-bold tracking-widest uppercase mb-1">Video</p>
+            <h3 class="text-white text-lg font-bold">MPLS 2023</h3>
+          </div>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <h3 class="font-semibold text-lg text-white group-hover:text-[#667eea] transition">MPLS 2023</h3>
+        <p class="text-sm text-white/60 flex items-center gap-2">
+          <i class="fas fa-calendar-alt w-4"></i>
+          17-20 Juli 2023
+        </p>
+        <p class="text-sm text-white/70">Masa Pengenalan Lingkungan Sekolah dengan berbagai aktivitas</p>
+        <p class="text-xs text-[#667eea] font-semibold mt-3">5 Media • Lihat Gallery →</p>
+      </div>
+    </div>
+
+    <!-- Event 5: Pesantren Kilat -->
+    <div class="group cursor-pointer" onclick="selectEvent('pesantren')">
+      <div class="event-thumbnail relative overflow-hidden rounded-2xl shadow-lg border border-white/10 hover:border-white/30 transition mb-4">
+        <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          <source src="./Gambar/PESANTREN KILAT.mp4" type="video/mp4">
+        </video>
+        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+          <i class="fas fa-play-circle text-4xl drop-shadow-lg"></i>
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/80 opacity-0 group-hover:opacity-100 transition duration-300"></div>
+        <div class="absolute inset-0 flex items-end p-6 opacity-0 group-hover:opacity-100 transition duration-300">
+          <div>
+            <p class="text-[#fbbf24] text-xs font-bold tracking-widest uppercase mb-1">Video</p>
+            <h3 class="text-white text-lg font-bold">Pesantren</h3>
+          </div>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <h3 class="font-semibold text-lg text-white group-hover:text-[#667eea] transition">Pesantren Kilat</h3>
+        <p class="text-sm text-white/60 flex items-center gap-2">
+          <i class="fas fa-calendar-alt w-4"></i>
+          27-31 Maret 2023
+        </p>
+        <p class="text-sm text-white/70">Kegiatan pesantren kilat dengan rohani dan edukasi</p>
+        <p class="text-xs text-[#667eea] font-semibold mt-3">4 Media • Lihat Gallery →</p>
+      </div>
+    </div>
+
+    <!-- Event 6: Hari Guru -->
+    <div class="group cursor-pointer" onclick="selectEvent('hari-guru')">
+      <div class="event-thumbnail relative overflow-hidden rounded-2xl shadow-lg border border-white/10 hover:border-white/30 transition mb-4">
+        <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          <source src="./Gambar/HARI GURU.mp4" type="video/mp4">
+        </video>
+        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+          <i class="fas fa-play-circle text-4xl drop-shadow-lg"></i>
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/80 opacity-0 group-hover:opacity-100 transition duration-300"></div>
+        <div class="absolute inset-0 flex items-end p-6 opacity-0 group-hover:opacity-100 transition duration-300">
+          <div>
+            <p class="text-[#fbbf24] text-xs font-bold tracking-widest uppercase mb-1">Video</p>
+            <h3 class="text-white text-lg font-bold">Hari Guru</h3>
+          </div>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <h3 class="font-semibold text-lg text-white group-hover:text-[#667eea] transition">Hari Guru 2023</h3>
+        <p class="text-sm text-white/60 flex items-center gap-2">
+          <i class="fas fa-calendar-alt w-4"></i>
+          24 November 2023
+        </p>
+        <p class="text-sm text-white/70">Perayaan Hari Guru Nasional dengan apresiasi guru</p>
+        <p class="text-xs text-[#667eea] font-semibold mt-3">4 Media • Lihat Gallery →</p>
+      </div>
+    </div>
+
+  </section>
+
+</main>
+
+<!-- GALLERY MODAL -->
+<div id="gallery-modal" class="hidden fixed inset-0 z-50 bg-black/95 backdrop-blur-sm overflow-y-auto no-scrollbar">
+
+  <!-- Header -->
+  <div class="sticky top-0 z-50 bg-black/50 backdrop-blur-md border-b border-white/10 py-4">
+    <div class="max-w-7xl mx-auto px-4 md:px-6 flex items-center justify-between">
+      <div>
+        <h2 id="modal-title" class="text-2xl md:text-3xl font-bold text-white"></h2>
+        <p id="modal-date" class="text-sm text-white/60 mt-1"></p>
+      </div>
+      <button onclick="closeGallery()" class="text-white/60 hover:text-white transition text-2xl">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Gallery Grid -->
+  <div class="max-w-7xl mx-auto px-4 md:px-6 py-12">
+    <div id="gallery-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 animate-fade-in">
+      <!-- Photos will be inserted here -->
+    </div>
+  </div>
+
+</div>
+
+<!-- FULLSCREEN IMAGE VIEWER -->
+<div id="image-viewer" class="hidden fixed inset-0 z-[60] bg-black/98">
+
+  <!-- Close Button -->
+  <button onclick="closeViewer()" class="absolute top-4 right-6 z-70 text-white/60 hover:text-white transition text-3xl">
+    <i class="fas fa-times"></i>
+  </button>
+
+  <!-- Counter -->
+  <div class="absolute top-4 left-6 z-70 text-white/60 text-sm font-medium">
+    <span id="image-counter"></span>
+  </div>
+
+  <!-- Main Image/Video Container -->
+  <div class="w-full h-full flex items-center justify-center relative">
+    <img id="viewer-img" src="" alt="" class="max-w-[95vw] max-h-[95vh] object-contain viewer-fade">
+    <video id="viewer-video" controls class="max-w-[95vw] max-h-[95vh] hidden viewer-fade">
+      <source src="" type="video/mp4">
+    </video>
+
+    <!-- Navigation Buttons -->
+    <button onclick="previousImage()" class="absolute left-6 top-1/2 -translate-y-1/2 z-70 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition hover:scale-110">
+      <i class="fas fa-chevron-left text-xl"></i>
+    </button>
+    <button onclick="nextImage()" class="absolute right-6 top-1/2 -translate-y-1/2 z-70 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition hover:scale-110">
+      <i class="fas fa-chevron-right text-xl"></i>
+    </button>
+  </div>
+
+</div>
+
+<script>
+  const eventsData = {
+    'kimbo-prambors': {
+      title: 'Kimbo X Prambors Event',
+      date: '2 September 2024',
+      media: [
+        { type: 'image', src: './Gambar/FotoPorto1.png' },
+        { type: 'image', src: './Gambar/FotoPorto2.png' },
+        { type: 'image', src: './Gambar/FotoPorto3.png' },
+        { type: 'video', src: './Gambar/KIMBO PROBITES SKULPRIZE.mp4' },
+      ]
+    },
+    'workshop': {
+      title: 'Workshop & Seminar',
+      date: '26 Juni 2024',
+      media: [
+        { type: 'image', src: './Gambar/WORKSHOP.png' },
+      ]
+    },
+    'mpls': {
+      title: 'MPLS 2023',
+      date: '17-20 Juli 2023',
+      media: [
+        { type: 'video', src: './Gambar/MPLS 2023.mp4' },
+      ]
+    },
+    'pesantren': {
+      title: 'Pesantren Kilat',
+      date: '27-31 Maret 2023',
+      media: [
+        { type: 'video', src: './Gambar/PESANTREN KILAT.mp4' },
+      ]
+    },
+    'hari-guru': {
+      title: 'Hari Guru 2023',
+      date: '24 November 2023',
+      media: [
+        { type: 'video', src: './Gambar/HARI GURU.mp4' },
+      ]
+    }
+  };
+
+  let currentEvent = null;
+  let currentImageIndex = 0;
+
+  function selectEvent(eventId) {
+    currentEvent = eventId;
+    const event = eventsData[eventId];
+
+    document.getElementById('modal-title').textContent = event.title;
+    document.getElementById('modal-date').textContent = event.date;
+
+    const grid = document.getElementById('gallery-grid');
+    grid.innerHTML = '';
+
+    event.media.forEach((media, idx) => {
+      const item = document.createElement('div');
+      item.className = 'photo-grid-item group relative aspect-square rounded-xl overflow-hidden cursor-pointer shadow-lg border border-white/10 hover:border-white/30 transition';
+      item.onclick = () => openViewer(idx);
+
+      if (media.type === 'image') {
+        item.innerHTML = `
+          <img src="${media.src}" alt="${event.title} - Photo ${idx + 1}" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition"></div>
+        `;
+      } else {
+        item.innerHTML = `
+          <video class="w-full h-full object-cover" muted loop autoplay>
+            <source src="${media.src}" type="video/mp4">
+          </video>
+          <div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition">
+            <i class="fas fa-play-circle text-3xl text-white/70 group-hover:text-white transition"></i>
+          </div>
+        `;
+      }
+
+      grid.appendChild(item);
+    });
+
+    document.getElementById('gallery-modal').classList.remove('hidden');
+  }
+
+  function closeGallery() {
+    document.getElementById('gallery-modal').classList.add('hidden');
+    currentEvent = null;
+  }
+
+  function openViewer(index) {
+    if (!currentEvent) return;
+    currentImageIndex = index;
+    const media = eventsData[currentEvent].media[index];
+    const img = document.getElementById('viewer-img');
+    const video = document.getElementById('viewer-video');
+
+    img.classList.add('hidden');
+    video.classList.add('hidden');
+
+    if (media.type === 'image') {
+      img.src = media.src;
+      img.classList.remove('hidden');
+    } else {
+      video.querySelector('source').src = media.src;
+      video.classList.remove('hidden');
+      video.load();
+      video.play();
+    }
+
+    updateCounter();
+    document.getElementById('image-viewer').classList.remove('hidden');
+  }
+
+  function closeViewer() {
+    document.getElementById('image-viewer').classList.add('hidden');
+    document.getElementById('viewer-video').pause();
+  }
+
+  function previousImage() {
+    if (!currentEvent) return;
+    const media = eventsData[currentEvent].media;
+    currentImageIndex = (currentImageIndex - 1 + media.length) % media.length;
+    openViewer(currentImageIndex);
+  }
+
+  function nextImage() {
+    if (!currentEvent) return;
+    const media = eventsData[currentEvent].media;
+    currentImageIndex = (currentImageIndex + 1) % media.length;
+    openViewer(currentImageIndex);
+  }
+
+  function updateCounter() {
+    if (!currentEvent) return;
+    const total = eventsData[currentEvent].media.length;
+    document.getElementById('image-counter').textContent = `${currentImageIndex + 1} / ${total}`;
+  }
+
+  // Keyboard navigation
+  document.addEventListener('keydown', (e) => {
+    const viewer = document.getElementById('image-viewer');
+    if (!viewer.classList.contains('hidden')) {
+      if (e.key === 'ArrowRight') nextImage();
+      else if (e.key === 'ArrowLeft') previousImage();
+      else if (e.key === 'Escape') closeViewer();
+    }
+  });
+</script>
+
+</body>
+</html>
