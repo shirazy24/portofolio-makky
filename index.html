@@ -12,7 +12,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Makky Shirazy - Photographer & Videographer">
   <meta property="og:description" content="Portofolio fotografi dan videografi Makky Shirazy. Dokumentasi event dengan detail dan kreativitas tinggi.">
-  <meta property="og:image" content="./Gambar/fotogua.jpg">
+  <meta property="og:image" content="../Gambar/fotogua.jpg">
   <meta name="twitter:card" content="summary_large_image">
 
   <script src="https://cdn.tailwindcss.com"></script>
@@ -31,7 +31,7 @@
 
     html { scroll-padding-top: 100px; }
 
-    /* ANIMASI SCROLL REVEAL TERKEREN DI DUNIA (3D + BLUR) */
+    /* 🔥 ANIMASI SCROLL REVEAL TERKEREN DI DUNIA (3D + BLUR) 🔥 */
     .reveal-cool {
       opacity: 0;
       filter: blur(8px);
@@ -103,7 +103,7 @@
 <!-- HOME -->
 <section id="home" class="relative min-h-screen w-full flex items-center justify-center px-4 md:px-6 pt-20 md:pt-24 pb-10">
   <div class="reveal-cool relative w-full max-w-[1200px] h-[75vh] md:h-[80vh] rounded-[30px] md:rounded-[40px] border-[3px] border-black shadow-[0_15px_40px_rgba(0,0,0,0.15)] overflow-hidden mt-6 md:mt-0">
-    <div class="absolute inset-0 bg-cover bg-no-repeat" style="background-image: url('./Gambar/fotogua.jpg'); background-position: 60% 55%;"></div>
+    <div class="absolute inset-0 bg-cover bg-no-repeat" style="background-image: url('../Gambar/fotogua.jpg'); background-position: 60% 55%;"></div>
     <div class="absolute inset-0 bg-white/20"></div>
     <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
       <h1 class="text-5xl sm:text-6xl md:text-8xl font-black text-black text-shadow-solid tracking-tight">Makky Shirazy</h1>
@@ -132,7 +132,7 @@
   <div class="reveal-cool mt-12 md:mt-16 w-full max-w-5xl flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16" style="transition-delay: 200ms;">
     <div class="w-full md:w-1/2 flex justify-center">
         <div class="w-40 h-48 sm:w-56 sm:h-64 md:w-[300px] md:h-[400px] rounded-[30px] md:rounded-[40px] border-[3px] border-black shadow-[0_15px_40px_rgba(0,0,0,0.15)] overflow-hidden bg-white flex items-center justify-center">
-            <img src="./Gambar/fotomakky.jpg" alt="Makky Shirazy" onerror="this.src='https://picsum.photos/400/500?random=102'" class="w-full h-full object-cover object-center hover:scale-110 transition-transform duration-500" />
+            <img src="../Gambar/fotomakky.jpg" alt="Makky Shirazy" onerror="this.src='https://picsum.photos/400/500?random=102'" class="w-full h-full object-cover object-center hover:scale-110 transition-transform duration-500" />
         </div>
     </div>
     <div class="w-full md:w-1/2 flex flex-col gap-4 md:gap-8 text-sm md:text-xl">
@@ -226,7 +226,7 @@
 
     <div class="reveal-cool w-full relative z-10 space-y-16 md:space-y-20" style="transition-delay: 200ms;">
 
-      <!-- High School Project Card -->
+      <!-- High School Project Card with Events Grid Inside -->
       <div data-project="high-school" data-events="5" data-media-prefix="8+" data-total-media="8"
            class="group relative overflow-hidden rounded-[30px] shadow-xl border-[2px] md:border-[3px] border-black bg-white cursor-pointer transform hover:scale-102 transition-all duration-300"
            onclick="location.href='High School Project/events.html'">
@@ -468,6 +468,8 @@
 
       </div>
 
+
+
     </div>
   </div>
 </section>
@@ -475,43 +477,234 @@
 <!-- INSTAGRAM SECTION -->
 <section class="w-full flex flex-col items-center pt-20 md:pt-24 px-4 md:px-6 pb-20 bg-gradient-to-b from-[#F8F9FA] to-[#E8E9F0]">
   <div class="reveal-cool w-full max-w-3xl">
-    <div class="group relative rounded-[20px] md:rounded-[30px] border-[2px] md:border-[3px] border-black bg-white shadow-lg p-6 md:p-8 text-center">
-      <h3 class="text-2xl md:text-4xl font-bold text-[#222]">Kunjungi Instagram Saya</h3>
-      <p class="mt-2 text-sm md:text-base text-gray-600">Lihat postingan dan update terbaru mengenai karya visual saya.</p>
-      <a href="https://www.instagram.com/makkyshrzy._?igsh=MXN6cDVwbDhlZW5xZw==" target="_blank" rel="noopener noreferrer" class="mt-6 inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#4B82C3] text-black font-semibold border-2 border-black hover:scale-105 transition duration-300">
-        <i class="fab fa-instagram text-xl"></i>
-        <span>@makkyshrzy._</span>
-      </a>
+    <div class="group relative rounded-[20px] md:rounded-[30px] border-[2px] md:border-[3px] border-black bg-white shadow-lg cursor-pointer hover:shadow-xl transition-all duration-300 p-8 md:p-12 text-center"
+         onclick="window.open('https://www.instagram.com/obscura.dx/', '_blank')">
+
+      <div class="flex flex-col items-center gap-4 md:gap-6">
+        <i class="fab fa-instagram text-[#E1306C] text-4xl md:text-5xl"></i>
+
+        <div>
+          <p class="text-black text-base md:text-lg font-medium mb-3">
+            For more content kunjungi akun Instagram saya
+          </p>
+          <h2 class="text-3xl md:text-4xl font-bold text-black">@obscura.dx</h2>
+        </div>
+
+        <div class="flex items-center gap-2 text-[#E1306C] font-semibold group-hover:gap-4 transition-all">
+          <span>Buka Instagram</span>
+          <i class="fas fa-arrow-right"></i>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
 
-<!-- CONTACT -->
-<section id="contact" class="w-full flex flex-col items-center pt-20 md:pt-24 px-4 md:px-6 pb-20">
-  <h2 class="reveal-cool text-4xl md:text-6xl font-bold text-[#222] mb-4">Contact Me</h2>
-  <p class="reveal-cool text-gray-600 text-sm md:text-lg mb-8 text-center">Tertarik untuk bekerja sama? Hubungi saya melalui email atau sosial media.</p>
-  <div class="reveal-cool w-full max-w-lg bg-white p-6 md:p-8 rounded-[20px] border-2 border-black shadow-lg">
-    <form action="mailto:makkyshirazy2@gmail.com" method="post" enctype="text/plain" class="flex flex-col gap-4">
-      <input type="text" name="name" placeholder="Nama Anda" required class="p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-black" />
-      <input type="email" name="email" placeholder="Email Anda" required class="p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-black" />
-      <textarea name="message" rows="4" placeholder="Pesan Anda" required class="p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-black"></textarea>
-      <button type="submit" class="py-3 bg-[#4B82C3] text-black font-bold border-2 border-black rounded-lg hover:bg-blue-500 transition duration-300">Kirim Pesan</button>
-    </form>
+<section id="contact" class="w-full flex flex-col items-center pt-24 md:pt-32 px-4 md:px-6 pb-20" style="perspective: 1000px;">
+  
+  <p class="reveal-cool text-[#4B82C3] font-black text-sm md:text-base tracking-[0.2em] uppercase mb-2 md:mb-4 drop-shadow-sm text-center">Start Build Something Great</p>
+  <h1 class="reveal-cool text-4xl md:text-6xl font-black text-[#222] mb-12 md:mb-20 text-center tracking-tight" style="transition-delay: 50ms;">Have some idea? Let's talk</h1>
+
+  <div class="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24">
+    
+    <div class="reveal-cool flex flex-col gap-8 md:gap-10" style="transition-delay: 150ms;">
+       <h2 class="text-3xl md:text-4xl font-bold text-[#222]">Get in Touch</h2>
+       
+       <div class="flex flex-col gap-6 md:gap-8">
+         <div>
+            <p class="text-xs md:text-sm font-bold text-gray-400 tracking-widest uppercase mb-1 md:mb-2">Email Resmi</p>
+            <p class="text-sm md:text-xl font-bold text-black border-l-4 border-[#FDE047] pl-3 md:pl-4 transition-all hover:pl-6 hover:text-[#4B82C3]">makkyshirazy2@gmail.com</p>
+         </div>
+         <div>
+            <p class="text-xs md:text-sm font-bold text-gray-400 tracking-widest uppercase mb-1 md:mb-2">Whatsapp / Phone</p>
+            <p class="text-sm md:text-xl font-bold text-black border-l-4 border-[#FDE047] pl-3 md:pl-4 transition-all hover:pl-6 hover:text-[#4B82C3]">+62 878-7051-5977</p>
+         </div>
+         <div>
+            <p class="text-xs md:text-sm font-bold text-gray-400 tracking-widest uppercase mb-1 md:mb-2">Location</p>
+            <p class="text-sm md:text-xl font-bold text-black border-l-4 border-[#FDE047] pl-3 md:pl-4 transition-all hover:pl-6 hover:text-[#4B82C3]">Tangerang Selatan, Banten</p>
+         </div>
+       </div>
+    </div>
+
+    <div class="reveal-cool bg-white rounded-[30px] md:rounded-[40px] border-[2px] md:border-[3px] border-black shadow-[0_15px_40px_rgba(0,0,0,0.15)] p-6 md:p-12" style="transition-delay: 300ms;">
+       <h2 class="text-2xl md:text-3xl font-bold text-[#222] mb-6 md:mb-8">Send Message</h2>
+
+       <!-- Success Message -->
+       <div id="success-message" class="hidden mb-6 p-4 md:p-6 bg-green-50 border-l-4 border-green-500 rounded-lg animate-in fade-in">
+          <div class="flex items-center gap-3">
+             <i class="fas fa-check-circle text-green-500 text-2xl"></i>
+             <div>
+                <h3 class="font-bold text-green-700">Message Sent Successfully!</h3>
+                <p class="text-sm text-green-600">Thank you for reaching out. I'll get back to you soon.</p>
+             </div>
+          </div>
+       </div>
+
+       <!-- Error Message -->
+       <div id="error-message" class="hidden mb-6 p-4 md:p-6 bg-red-50 border-l-4 border-red-500 rounded-lg animate-in fade-in">
+          <div class="flex items-center gap-3">
+             <i class="fas fa-exclamation-circle text-red-500 text-2xl"></i>
+             <div>
+                <h3 class="font-bold text-red-700">Failed to Send Message</h3>
+                <p id="error-text" class="text-sm text-red-600">Please try again or contact me via other methods.</p>
+             </div>
+          </div>
+       </div>
+
+       <form id="contact-form" class="flex flex-col gap-4 md:gap-6">
+          <div class="flex flex-col md:flex-row gap-4 md:gap-6">
+             <div class="flex flex-col flex-1">
+                <label class="text-[10px] md:text-xs font-bold text-gray-500 uppercase tracking-widest mb-1 md:mb-2">Name</label>
+                <input type="text" name="name" placeholder="Your Name" required class="w-full border-b-[2px] border-gray-300 focus:border-[#4B82C3] outline-none bg-transparent py-2 text-sm md:text-base text-black font-medium transition-colors">
+             </div>
+             <div class="flex flex-col flex-1">
+                <label class="text-[10px] md:text-xs font-bold text-gray-500 uppercase tracking-widest mb-1 md:mb-2">Email</label>
+                <input type="email" name="email" placeholder="Your Email" required class="w-full border-b-[2px] border-gray-300 focus:border-[#4B82C3] outline-none bg-transparent py-2 text-sm md:text-base text-black font-medium transition-colors">
+             </div>
+          </div>
+          <div class="flex flex-col mt-2">
+             <label class="text-[10px] md:text-xs font-bold text-gray-500 uppercase tracking-widest mb-1 md:mb-2">Subject</label>
+             <input type="text" name="subject" placeholder="Subject" required class="w-full border-b-[2px] border-gray-300 focus:border-[#4B82C3] outline-none bg-transparent py-2 text-sm md:text-base text-black font-medium transition-colors">
+          </div>
+          <div class="flex flex-col mt-2">
+             <label class="text-[10px] md:text-xs font-bold text-gray-500 uppercase tracking-widest mb-1 md:mb-2">Message</label>
+             <textarea name="message" rows="3" placeholder="Your Message" required class="w-full border-b-[2px] border-gray-300 focus:border-[#4B82C3] outline-none bg-transparent py-2 text-sm md:text-base text-black font-medium transition-colors resize-none"></textarea>
+          </div>
+          <button type="submit" id="submit-btn" class="mt-6 md:mt-8 bg-[#4B82C3] text-white text-sm md:text-base font-bold tracking-widest uppercase py-3 md:py-4 rounded-full border-[2px] md:border-[2.5px] border-black hover:bg-[#FDE047] hover:text-black transition-all duration-300 w-full md:w-auto md:px-12 self-start shadow-[0_5px_15px_rgba(0,0,0,0.1)] hover:scale-105 transform flex items-center justify-center gap-2">
+             <span id="btn-text">Send Message</span>
+             <i id="btn-icon" class="fas fa-paper-plane hidden"></i>
+             <div id="btn-spinner" class="hidden">
+                <div class="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+             </div>
+          </button>
+       </form>
+    </div>
+
   </div>
 </section>
 
-<!-- SCRIPT UNTUK ANIMASI SCROLL REVEAL -->
+<footer class="w-full py-8 md:py-10 mt-8 md:mt-12 flex justify-center items-center">
+  <p class="text-gray-400 font-semibold text-[10px] md:text-sm tracking-widest text-center">
+    &copy; 2026 MAKKY SHIRAZY. ALL RIGHTS RESERVED.
+  </p>
+</footer>
+
 <script>
-  const reveals = document.querySelectorAll('.reveal-cool');
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('active');
+  document.addEventListener('DOMContentLoaded', () => {
+
+    // FORM SUBMISSION HANDLER
+    const contactForm = document.getElementById('contact-form');
+    if (contactForm) {
+      contactForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        const submitBtn = document.getElementById('submit-btn');
+        const btnText = document.getElementById('btn-text');
+        const btnSpinner = document.getElementById('btn-spinner');
+        const successMsg = document.getElementById('success-message');
+        const errorMsg = document.getElementById('error-message');
+
+        // Hide previous messages
+        successMsg.classList.add('hidden');
+        errorMsg.classList.add('hidden');
+
+        // Show loading state
+        submitBtn.disabled = true;
+        btnText.classList.add('hidden');
+        btnSpinner.classList.remove('hidden');
+
+        try {
+          const formData = new FormData(contactForm);
+          const response = await fetch('https://formspree.io/f/xqenpnvg', {
+            method: 'POST',
+            body: formData,
+            headers: {
+              'Accept': 'application/json'
+            }
+          });
+
+          if (response.ok) {
+            // Success!
+            successMsg.classList.remove('hidden');
+            contactForm.reset();
+
+            // Hide success message after 5 seconds
+            setTimeout(() => {
+              successMsg.classList.add('hidden');
+            }, 5000);
+          } else {
+            throw new Error('Form submission failed');
+          }
+        } catch (error) {
+          // Show error
+          errorMsg.classList.remove('hidden');
+          console.error('Error:', error);
+        } finally {
+          // Reset button state
+          submitBtn.disabled = false;
+          btnText.classList.remove('hidden');
+          btnSpinner.classList.add('hidden');
+        }
+      });
+    }
+
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        if (scrollY >= (sectionTop - 150)) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('bg-[#4B82C3]');
+        link.classList.add('bg-[#cccccc]');
+        if (link.getAttribute('href') === `#${current}`) {
+          link.classList.remove('bg-[#cccccc]');
+          link.classList.add('bg-[#4B82C3]');
+        }
+      });
+    });
+
+    function reveal() {
+      var reveals = document.querySelectorAll(".reveal, .reveal-cool");
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 50;
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        }
+      }
+    }
+    window.addEventListener("scroll", reveal);
+    reveal();
+
+    // AUTO-POPULATE PROJECT CARD STATS (sumber angka: data-events / data-total-media)
+    document.querySelectorAll('[data-project]').forEach(card => {
+      const id = card.getAttribute('data-project');
+      const eventCount = card.getAttribute('data-events');
+      const totalMedia = card.getAttribute('data-total-media');
+      const mediaPrefix = card.getAttribute('data-media-prefix') || '';
+
+      const eventsEl = document.getElementById(`${id}-events`);
+      const mediaEl = document.getElementById(`${id}-media`);
+      const descEl = document.getElementById(`${id}-desc`);
+
+      if (eventsEl) eventsEl.textContent = eventCount;
+      if (mediaEl) mediaEl.textContent = mediaPrefix + totalMedia;
+      if (descEl) {
+        const label = id === 'certificate' ? 'Sertifikat' : (id === 'high-school' ? 'Event' : 'Event');
+        descEl.innerHTML = descEl.innerHTML.replace(/^\d+|\d+\s+Event|\d+\s+Sertifikat/, `${eventCount} ${label === 'Sertifikat' ? 'Sertifikat' : 'Event'}`);
       }
     });
-  }, { threshold: 0.1 });
 
-  reveals.forEach(el => observer.observe(el));
+  });
+
 </script>
 
 </body>
